@@ -1,0 +1,132 @@
+/* EBooksPage.css */
+
+.ebooks-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #1c1c1c, #000000);
+    color: white;}
+    .ebook-library-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+  
+  .ebooks-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1f2937;
+  }
+  
+  .ebooks-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .ebooks-filters select {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  
+  .book-card {
+    background-color: #454444;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .book-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .book-card img:hover {
+    opacity: 0.9;
+  }
+  
+  .book-info {
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #aec5f6;
+  }
+  
+  .book-meta {
+    font-size: 0.9rem;
+    color: #85868a;
+    margin-bottom: 1rem;
+  }
+  
+  .download-btn {
+    margin-top: auto;
+    background-color: #2e657d;
+    color: white;
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #2979ff;
+  }
+  
+  .no-books {
+    text-align: center;
+    color: #6b7280;
+  }
+ 
+  .back-button {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .back-button:hover {
+    background-color:#2850ac;
+  }
+  
+
+  

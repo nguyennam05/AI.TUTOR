@@ -1,0 +1,38 @@
+.chatList{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: 100%;/*added later*/
+   
+    hr{
+        border: none;
+        height: 1px;
+        background-color: #ddd;
+        opacity: 0.1;
+        border-radius: 5px;
+        margin:20px 0px ;
+    }
+    .title{
+        font-weight: 900;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .list{
+    
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; /* Allow list to grow and take available space */
+    overflow: auto; /* Enable scrolling within the list */
+    font-size: 15 px;
+    }
+
+    a{
+        padding: 8px;
+        border-radius: 10px;
+
+        &:hover{
+            background-color: #2c2937;
+        }
+    }
+    
+}

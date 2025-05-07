@@ -1,0 +1,23 @@
+.dashboardLayout{
+    display:flex;
+    gap:20px;
+    padding: 10px;
+    width: 100%;
+    height:100%; 
+    overflow: auto; /* Allow page to scroll */
+
+    .menu{
+        
+        flex:1;
+        overflow-y: auto;       /* Allow vertical scrolling if content overflows */
+    }
+
+    .content{
+        flex:4;
+        background:#12101b;
+        color: #fff;            /* Example text color */
+        overflow-y: auto;       /* Allow vertical scrolling for long content */
+        padding: 20px;         /* Padding inside the content area */
+        box-sizing: border-box; /* Include padding in width/height calculations */
+    }
+}
