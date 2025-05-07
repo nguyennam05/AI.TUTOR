@@ -11,9 +11,8 @@ const Homepage = () => {
       <div className='left'>
         <h1>AI.TUTOR</h1>
         <h2>Learn and revise things faster.</h2>
-        <h3>started on 21st january 2025 by students of  III-CSE-C (Innovative product development 4)</h3>
-        <p> M.Sharmila-22RH1A05F4<br/>
-        P.Sathvika-22RH1A05H7<br/>
+        <h3>started on 21st january 2025 by student of  III-CSE-C (Innovative product development 4)</h3>
+        <p>
         P.Meenakshi-22RH1A05K1
         </p>
             <a href="/dashboard" className='button_in'><b>Get Started</b></a>
